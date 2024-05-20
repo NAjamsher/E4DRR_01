@@ -50,7 +50,7 @@ image:
 ## Future Innovations:
 
 - The E4DRR project continues to explore new technological innovations, such as machine learning and artificial intelligence, to further improve forecasting accuracy and efficiency.
-- Future initiatives include expanding the network of monitoring stations and integrating more sophisticated data analytics to predict complex weather patterns and disaster scenarios.
+- Future initiatives include expanding the network of monitoring stations & integrating more sophisticated data analytics to predict complex weather patterns and disaster scenarios.
 
 ## Conclusion:
 
