@@ -51,9 +51,9 @@ sections:
             climate solutions
         - statistic: "95%"
           description: |
-            Countries impacted  
-            by advanced  
-            climate solutions
+            Accuracy rate  
+            in early warning  
+            systems
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
