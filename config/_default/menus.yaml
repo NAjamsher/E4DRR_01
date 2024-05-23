@@ -15,6 +15,10 @@ main:
   - name: Blog
     url: /blog
     weight: 40
+  - name: Documentation
+    weight: 50
+    url: /docs/
+
   # hasChildren: true
   #- parent: Blog1
   # name: Blog

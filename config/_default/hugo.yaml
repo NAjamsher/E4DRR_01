@@ -35,6 +35,26 @@ cascade:
     # Set the listing view
     view: date-title-summary
 
+
+cascade:
+  # Docs section options
+  - _target:
+      path: /docs/**
+    pager: false
+    editable: true
+    #hide_date: true
+    reading_time: true
+    commentable: false
+    show_breadcrumb: true
+    header:
+      navbar:
+        enable: true
+
+  # Docs listing options
+  - _target:
+      path: /docs/
+    view: list
+    layout: docs-section
 ############################
 ## LANGUAGE
 ############################

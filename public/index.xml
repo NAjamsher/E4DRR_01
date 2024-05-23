@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home | E4DRR</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/E4DRR2.GITHUB.IO/</link>
+      <atom:link href="http://localhost:1313/E4DRR2.GITHUB.IO/index.xml" rel="self" type="application/rss+xml" />
     <description>Home</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo.svg</url>
+      <url>http://localhost:1313/E4DRR2.GITHUB.IO/media/logo.svg</url>
       <title>Home</title>
-      <link>http://localhost:1313/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/</link>
     </image>
     
     <item>
       <title>📈 Empowering Communities with Impact-Based Forecasting</title>
-      <link>http://localhost:1313/blog/impact-basedforecasting/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/blog/impact-basedforecasting/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/impact-basedforecasting/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/blog/impact-basedforecasting/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Impact-based forecasting is a revolutionary method that focuses on the potential impacts of weather events rather than just the events themselves.&lt;/li&gt;
@@ -56,9 +56,9 @@
     
     <item>
       <title>🧠 Building Resilient Communities , Capacity Development and Training</title>
-      <link>http://localhost:1313/blog/building-resilient-communities/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/blog/building-resilient-communities/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/building-resilient-communities/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/blog/building-resilient-communities/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Effective disaster management requires not only advanced technologies but also well-trained individuals who can implement and utilize these tools.&lt;/li&gt;
@@ -108,9 +108,9 @@
     
     <item>
       <title>✅ Building Capacity for Disaster Management in Eastern Africa</title>
-      <link>http://localhost:1313/blog/capacity-for-dm/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/blog/capacity-for-dm/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/capacity-for-dm/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/blog/capacity-for-dm/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Capacity development involves enhancing the abilities of individuals, organizations, and communities to effectively manage disaster risks.&lt;/li&gt;
@@ -157,9 +157,9 @@
     
     <item>
       <title>👩🏼‍🏫 Harnessing the Power of Technology:Innovations in Disaster Forecasting</title>
-      <link>http://localhost:1313/blog/innovations-in/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/blog/innovations-in/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/innovations-in/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/blog/innovations-in/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;As climate change intensifies the frequency and severity of natural disasters, innovative technological solutions are crucial for effective disaster management.&lt;/li&gt;
@@ -210,9 +210,9 @@
     
     <item>
       <title>🎉 The Power of Advanced Climate Storylines in Disaster Management</title>
-      <link>http://localhost:1313/blog/the-power/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/blog/the-power/</link>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the-power/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/blog/the-power/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction:&lt;/h2&gt;
 &lt;ul&gt;
@@ -255,18 +255,18 @@ effectively.&lt;/li&gt;
     
     <item>
       <title>Privacy</title>
-      <link>http://localhost:1313/privacy/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/privacy/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/privacy/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/privacy/</guid>
       <description>&lt;p&gt;Add your company privacy policy here&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Terms of Service</title>
-      <link>http://localhost:1313/terms/</link>
+      <link>http://localhost:1313/E4DRR2.GITHUB.IO/terms/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/terms/</guid>
+      <guid>http://localhost:1313/E4DRR2.GITHUB.IO/terms/</guid>
       <description>&lt;p&gt;Add your company legal terms here&amp;hellip;&lt;/p&gt;
 </description>
     </item>

@@ -1,0 +1,1133 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: May 23, 2024 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark">
+  
+<head><script src="/E4DRR2.GITHUB.IO/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=E4DRR2.GITHUB.IO/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A highly-customizable Hugo landing page theme powered by Hugo Blox website builder." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/E4DRR2.GITHUB.IO/docs/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/E4DRR2.GITHUB.IO/css/themes/indigo.min.css" />
+  
+
+  
+  
+    
+    <link href="/E4DRR2.GITHUB.IO/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/E4DRR2.GITHUB.IO/docs/index.xml" type="application/rss+xml" title="E4DRR" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/E4DRR2.GITHUB.IO/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/E4DRR2.GITHUB.IO/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="http://localhost:1313/E4DRR2.GITHUB.IO/docs/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="E4DRR" />
+  <meta property="og:url" content="http://localhost:1313/E4DRR2.GITHUB.IO/docs/" />
+  <meta property="og:title" content="Documentation | E4DRR" />
+  <meta property="og:description" content="A highly-customizable Hugo landing page theme powered by Hugo Blox website builder." /><meta property="og:image" content="http://localhost:1313/E4DRR2.GITHUB.IO/media/logo.svg" />
+    <meta property="twitter:image" content="http://localhost:1313/E4DRR2.GITHUB.IO/media/logo.svg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2024-05-22T10:45:51&#43;05:30" />
+    
+  
+
+  
+
+
+
+
+  <title>Documentation | E4DRR</title>
+
+  
+  
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/E4DRR2.GITHUB.IO/dist/font/Inter.var.woff2) format("woff2");
+    }
+  </style>
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/E4DRR2.GITHUB.IO/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/E4DRR2.GITHUB.IO/" title="E4DRR">
+            
+            
+              
+              <img
+                fetchpriority="high"
+                decoding="async"
+                class=""
+                width="140"
+                height="36"
+                src="/E4DRR2.GITHUB.IO/media/mylogo_hu946dcdb4e29051e47e40b949005a37e8_3997_0x36_resize_q95_h2_lanczos_3.webp"
+                alt="E4DRR" />
+            
+          
+        
+        
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/E4DRR2.GITHUB.IO/#top"
+        >Home</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/E4DRR2.GITHUB.IO/#features"
+        >Aims &amp; impact</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/E4DRR2.GITHUB.IO/#solutions"
+        >Solutions</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/E4DRR2.GITHUB.IO/blog"
+        >Blog</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          
+          href="/E4DRR2.GITHUB.IO/docs/"
+        >Documentation</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      <div class="mx-auto flex max-w-screen-xl">
+  
+
+  
+  <div class="hb-sidebar-mobile-menu fixed inset-0 z-10 bg-white dark:bg-black/80 hidden"></div>
+
+
+
+<aside class="hb-sidebar-container max-lg:[transform:translate3d(0,-100%,0)] lg:sticky">
+  
+  <div class="px-4 pt-4 lg:hidden">
+    
+    
+  </div>
+  <div class="hb-scrollbar lg:h-[calc(100vh-var(--navbar-height))]">
+    <ul class="flex flex-col gap-1 lg:hidden">
+      
+      
+        <li class="open"><a
+    class="hb-sidebar-custom-link
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+    href="/E4DRR2.GITHUB.IO/docs/"
+    
+  >Documentation
+    </a>
+  
+    <ul class="hb-sidebar-mobile-toc"><li>
+              <a
+                href="#introduction"
+                class="hb-docs-link"
+              >Introduction</a>
+            </li>
+          <li>
+              <a
+                href="#documentation-overview"
+                class="hb-docs-link"
+              >Documentation Overview</a>
+            </li>
+          <li>
+              <a
+                href="#adding-new-blogs"
+                class="hb-docs-link"
+              >Adding New Blogs</a>
+            </li>
+          <li>
+              <a
+                href="#running-a-local-test-setup"
+                class="hb-docs-link"
+              >Running a Local Test Setup</a>
+            </li>
+          <li>
+              <a
+                href="#deployment"
+                class="hb-docs-link"
+              >Deployment</a>
+            </li>
+          <li>
+              <a
+                href="#troubleshooting"
+                class="hb-docs-link"
+              >Troubleshooting</a>
+            </li>
+          <li>
+              <a
+                href="#frequently-asked-questions-faqs"
+                class="hb-docs-link"
+              >Frequently Asked Questions (FAQs)</a>
+            </li>
+          </ul>
+  </li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/blog/"
+    
+  >Blog
+        <span data-hb-sidebar-toggle>
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
+        </span>
+    </a><div class="ltr:pr-0 overflow-hidden">
+        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/blog/impact-basedforecasting/"
+    
+  >📈 Empowering Communities with Impact-Based Forecasting
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/blog/building-resilient-communities/"
+    
+  >🧠 Building Resilient Communities , Capacity Development and Training
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/blog/capacity-for-dm/"
+    
+  >✅ Building Capacity for Disaster Management in Eastern Africa
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/blog/innovations-in/"
+    
+  >👩🏼‍🏫 Harnessing the Power of Technology:Innovations in Disaster Forecasting
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/blog/the-power/"
+    
+  >🎉 The Power of Advanced Climate Storylines in Disaster Management
+    </a>
+              
+            </li></ul>
+      </div></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/privacy/"
+    
+  >Privacy
+    </a></li>
+        <li class=""><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/E4DRR2.GITHUB.IO/terms/"
+    
+  >Terms of Service
+    </a></li>
+    </ul>
+
+    <ul class="flex flex-col gap-1 max-lg:hidden">
+        
+        
+      </ul>
+    </div>
+
+</aside>
+  
+
+<nav class="hb-toc order-last hidden w-64 shrink-0 xl:block print:hidden px-4" aria-label="table of contents">
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#introduction">Introduction</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#documentation-overview">Documentation Overview</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#project-files-and-directories">Project Files and Directories</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#key-sections-of-the-documentation">Key Sections of the Documentation</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#adding-new-blogs">Adding New Blogs</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#editing-files">Editing Files</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#running-a-local-test-setup">Running a Local Test Setup</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#deployment">Deployment</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#troubleshooting">Troubleshooting</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#common-issues-and-solutions">Common Issues and Solutions</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-8 rtl:pr-8 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#error-nil-pointer-evaluating-resourceresourceprocess">Error: nil pointer evaluating resource.Resource.Process</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-8 rtl:pr-8 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#error-no-such-file-or-directory--dir_chdir">Error: No such file or directory @ dir_chdir</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-8 rtl:pr-8 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#github-pages-build-failure">GitHub Pages build failure</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#frequently-asked-questions-faqs">Frequently Asked Questions (FAQs)</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#q-how-do-i-change-the-sites-theme">Q: How do I change the site’s theme?</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#q-how-can-i-add-images-to-my-blog-posts">Q: How can I add images to my blog posts?</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="pl-4 rtl:pr-4 inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#q-how-do-i-customize-the-sites-navigation-menu">Q: How do I customize the site’s navigation menu?</a>
+      </li></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  </nav>
+
+
+  <article class="flex w-full min-w-0 min-h-[calc(100vh-var(--navbar-height))] justify-center break-words pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="prose prose-slate lg:prose-xl dark:prose-invert w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      <div class="mb-1">
+        <div class="mt-1.5 flex items-center gap-1 overflow-hidden text-sm text-gray-500 dark:text-gray-400"><div class="whitespace-nowrap font-medium text-gray-700 dark:text-gray-100">Documentation</div>
+</div>
+
+      </div>
+
+      <div class="content text-base">
+        <h1>Documentation</h1>
+        <h2 id="introduction">Introduction</h2>
+<p>Welcome to the Enhancing Disaster Resilience in Eastern Africa (E4DRR) project website! This platform is dedicated to improving disaster management and resilience in Eastern Africa through advanced climate storylines and impact-based forecasting. Our goal is to empower communities with the knowledge and tools they need to better understand and prepare for potential hazards, ultimately benefiting over 200 million people by 2026.</p>
+<p>The E4DRR project leverages innovative technology and data-driven approaches to provide timely and accurate information for disaster response efforts. By implementing impact-based forecasting methodologies and offering capacity development programs, we aim to enhance the skills and knowledge of stakeholders involved in disaster management, enabling more efficient and coordinated response strategies.</p>
+<h2 id="documentation-overview">Documentation Overview</h2>
+<p>This documentation page provides comprehensive guidance on how to navigate, contribute to, and maintain the E4DRR project. Whether you are adding new content, editing existing files, or setting up the project locally, this documentation will help you through the process.</p>
+<h3 id="project-files-and-directories">Project Files and Directories</h3>
+<p>Here’s an overview of the main files and directories in the E4DRR project:</p>
+<ul>
+<li>Archetypes/: Contains the default archetypes for content creation.</li>
+<li>assets/: Houses custom CSS and media files.</li>
+<li>content/: Contains all the Markdown files for the website content, including blogs and homepage content.</li>
+<li>layouts/: Holds the HTML templates and partials used to render the site.</li>
+</ul>
+<ul>
+<li>static/: Stores static assets such as images and fonts.</li>
+<li>config.yaml: The main configuration file for the Hugo site.</li>
+<li>.github/: Contains GitHub Actions workflows for continuous deployment.</li>
+<li>README.md: Provides a brief overview of the project and setup instructions.</li>
+</ul>
+<h3 id="key-sections-of-the-documentation">Key Sections of the Documentation</h3>
+<ul>
+<li>
+<p>Adding New Blogs: Instructions on how to create and publish new blog posts.</p>
+</li>
+<li>
+<p>Editing Files: Guidelines for editing content and configuration files.</p>
+</li>
+<li>
+<p>Running a Local Test Setup: Steps to set up and run the project locally using Hugo.</p>
+</li>
+<li>
+<p>Deployment: Information on how the site is deployed using GitHub Actions.</p>
+</li>
+<li>
+<p>Troubleshooting: Common issues and their solutions.</p>
+</li>
+<li>
+<p>Contributing: How to contribute to the project, including forking the repository and submitting pull requests.</p>
+<p>We hope this documentation makes it easy for you to contribute to the E4DRR project and helps ensure the successful deployment and maintenance of the site. If you have any questions or need further assistance, please refer to the <a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">Hugo Documentation</a> or reach out to the hugo support team.</p>
+</li>
+</ul>
+<h2 id="adding-new-blogs">Adding New Blogs</h2>
+<p>To add a new blog post, follow these steps:</p>
+<ol>
+<li>Navigate to the <code>content/blog/</code> directory.</li>
+<li>Create a new Markdown file with a descriptive name, e.g., <code>new-blog-post.md</code>.</li>
+<li>Add the following front matter at the top of the file:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">title: &#34;Your Blog Title&#34;
+</span></span><span class="line"><span class="cl">date: YYYY-MM-DD
+</span></span><span class="line"><span class="cl">draft: false
+</span></span><span class="line"><span class="cl">---
+</span></span></code></pre></div><ol start="4">
+<li>Write your blog content in Markdown format, including any images or code snippets.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    ## Introduction
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    This is the introduction to your new blog post.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    ## Main Content
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    Here is where you write the main content of your blog post.
+</span></span></code></pre></div><ol start="5">
+<li>Save the file. Your new blog post will be included in the site build.</li>
+</ol>
+<h3 id="editing-files">Editing Files</h3>
+<p>To edit existing files, navigate to the relevant directory and open the file in your preferred text editor. Common files you might need to edit include:</p>
+<ul>
+<li><code>content/_index.md</code>: Edit the homepage content.</li>
+<li><code>config.yaml</code>: Update site configuration settings.</li>
+</ul>
+<h2 id="running-a-local-test-setup">Running a Local Test Setup</h2>
+<p>To run a test setup locally, ensure you have <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener">Hugo</a> installed on your machine. Then, follow these steps:</p>
+<ol>
+<li>Open your terminal or command prompt.</li>
+<li>Navigate to the project directory:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">   cd path/to/E4DRR.github.io
+</span></span></code></pre></div><ol start="3">
+<li>Start the Hugo server:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    hugo server
+</span></span></code></pre></div><ol start="4">
+<li>Open your web browser and navigate to the local server address displayed in the terminal to view the site.</li>
+</ol>
+<h2 id="deployment">Deployment</h2>
+<p>The project is configured to deploy using GitHub Actions. Follow these steps to ensure successful deployment:</p>
+<ol>
+<li>Ensure GitHub Pages is enabled in your repository settings and configured to use the <code>gh-pages</code> branch.</li>
+<li>Push your changes to the <code>main</code> branch. GitHub Actions will automatically build and deploy the site.</li>
+</ol>
+<p>The GitHub Actions workflow file <code>.github/workflows/gh-pages.yml</code> is configured as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-mysql" data-lang="mysql"><span class="line"><span class="cl"><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Deploy</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">GitHub</span><span class="w"> </span><span class="n">Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">WC_HUGO_VERSION</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0.125.2&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1"># Trigger the workflow every time you push to the `main` branch
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">  </span><span class="n">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">branches</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;main&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1"># Allows you to run this workflow manually from the Actions tab on GitHub.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">  </span><span class="n">workflow_dispatch</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1"># Provide permission to clone the repo and deploy it to GitHub Pages
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">permissions</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">contents</span><span class="p">:</span><span class="w"> </span><span class="k">read</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">pages</span><span class="p">:</span><span class="w"> </span><span class="k">write</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">id</span><span class="o">-</span><span class="n">token</span><span class="p">:</span><span class="w"> </span><span class="k">write</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">concurrency</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">group</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;pages&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">cancel</span><span class="o">-</span><span class="k">in</span><span class="o">-</span><span class="n">progress</span><span class="p">:</span><span class="w"> </span><span class="no">false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1"># Build website
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">  </span><span class="n">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">if</span><span class="p">:</span><span class="w"> </span><span class="n">github</span><span class="p">.</span><span class="n">repository_owner</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">&#39;HugoBlox&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">runs</span><span class="o">-</span><span class="k">on</span><span class="p">:</span><span class="w"> </span><span class="n">ubuntu</span><span class="o">-</span><span class="n">latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">uses</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">checkout</span><span class="o">@</span><span class="n">v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="c1"># Fetch history for Hugo&#39;s .GitInfo and .Lastmod
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">          </span><span class="k">fetch</span><span class="o">-</span><span class="n">depth</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Setup</span><span class="w"> </span><span class="n">Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">uses</span><span class="p">:</span><span class="w"> </span><span class="n">peaceiris</span><span class="o">/</span><span class="n">actions</span><span class="o">-</span><span class="n">hugo</span><span class="o">@</span><span class="n">v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">hugo</span><span class="o">-</span><span class="n">version</span><span class="p">:</span><span class="w"> </span><span class="err">${{</span><span class="w"> </span><span class="n">env</span><span class="p">.</span><span class="n">WC_HUGO_VERSION</span><span class="w"> </span><span class="err">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">extended</span><span class="p">:</span><span class="w"> </span><span class="no">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">uses</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">cache</span><span class="o">@</span><span class="n">v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">path</span><span class="p">:</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">hugo_cache_runner</span><span class="o">/</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="k">key</span><span class="p">:</span><span class="w"> </span><span class="err">${{</span><span class="w"> </span><span class="n">runner</span><span class="p">.</span><span class="n">os</span><span class="w"> </span><span class="err">}}</span><span class="o">-</span><span class="n">hugomod</span><span class="o">-</span><span class="err">${{</span><span class="w"> </span><span class="nf">hashFiles</span><span class="p">(</span><span class="s1">&#39;**/go.mod&#39;</span><span class="p">)</span><span class="w"> </span><span class="err">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">restore</span><span class="o">-</span><span class="k">keys</span><span class="p">:</span><span class="w"> </span><span class="o">|</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="err">${{</span><span class="w"> </span><span class="n">runner</span><span class="p">.</span><span class="n">os</span><span class="w"> </span><span class="err">}}</span><span class="o">-</span><span class="n">hugomod</span><span class="o">-</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Setup</span><span class="w"> </span><span class="n">Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">id</span><span class="p">:</span><span class="w"> </span><span class="n">pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">uses</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">configure</span><span class="o">-</span><span class="n">pages</span><span class="o">@</span><span class="n">v5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Build</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="n">Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">env</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">HUGO_ENVIRONMENT</span><span class="p">:</span><span class="w"> </span><span class="n">production</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">run</span><span class="p">:</span><span class="w"> </span><span class="o">|</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">echo</span><span class="w"> </span><span class="s2">&#34;Hugo Cache Dir: $(hugo config | grep cachedir)&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">hugo</span><span class="w"> </span><span class="o">--</span><span class="n">minify</span><span class="w"> </span><span class="o">--</span><span class="n">baseURL</span><span class="w"> </span><span class="s2">&#34;${{ steps.pages.outputs.base_url }}/&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Generate</span><span class="w"> </span><span class="n">Pagefind</span><span class="w"> </span><span class="n">search</span><span class="w"> </span><span class="k">index</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">run</span><span class="p">:</span><span class="w"> </span><span class="n">npx</span><span class="w"> </span><span class="n">pagefind</span><span class="w"> </span><span class="o">--</span><span class="n">source</span><span class="w"> </span><span class="s2">&#34;public&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Upload</span><span class="w"> </span><span class="n">artifact</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">uses</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">upload</span><span class="o">-</span><span class="n">pages</span><span class="o">-</span><span class="n">artifact</span><span class="o">@</span><span class="n">v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="n">path</span><span class="p">:</span><span class="w"> </span><span class="p">.</span><span class="o">/</span><span class="n">public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="c1"># Deploy website to GitHub Pages hosting
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">  </span><span class="n">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">if</span><span class="p">:</span><span class="w"> </span><span class="n">github</span><span class="p">.</span><span class="n">repository_owner</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s1">&#39;HugoBlox&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">environment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">github</span><span class="o">-</span><span class="n">pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="n">url</span><span class="p">:</span><span class="w"> </span><span class="err">${{</span><span class="w"> </span><span class="n">steps</span><span class="p">.</span><span class="n">deployment</span><span class="p">.</span><span class="n">outputs</span><span class="p">.</span><span class="n">page_url</span><span class="w"> </span><span class="err">}}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">runs</span><span class="o">-</span><span class="k">on</span><span class="p">:</span><span class="w"> </span><span class="n">ubuntu</span><span class="o">-</span><span class="n">latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">needs</span><span class="p">:</span><span class="w"> </span><span class="n">build</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="p">:</span><span class="w"> </span><span class="n">Deploy</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">GitHub</span><span class="w"> </span><span class="n">Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">id</span><span class="p">:</span><span class="w"> </span><span class="n">deployment</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">uses</span><span class="p">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">deploy</span><span class="o">-</span><span class="n">pages</span><span class="o">@</span><span class="n">v4</span><span class="w">
+</span></span></span></code></pre></div><ol start="3">
+<li>
+<p>Monitor the GitHub Actions workflow under the &ldquo;Actions&rdquo; tab in your repository to ensure the build and deployment processes complete successfully.</p>
+</li>
+<li>
+<p>Once the workflow completes, your site should be live on GitHub Pages. You can verify this by visiting the URL specified in your repository&rsquo;s GitHub Pages settings.</p>
+</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="common-issues-and-solutions">Common Issues and Solutions</h3>
+<h4 id="error-nil-pointer-evaluating-resourceresourceprocess">Error: nil pointer evaluating resource.Resource.Process</h4>
+<ul>
+<li><strong>Cause:</strong> This error typically occurs when an image or resource is not correctly referenced in the template or content files. Hugo is trying to process a resource that doesn&rsquo;t exist or is incorrectly specified, leading to a nil pointer evaluation.</li>
+<li><strong>Solution:</strong>
+<ol>
+<li><strong>Check References:</strong> Ensure that all images and resources are correctly referenced in your content files. Verify that the paths are accurate and relative to the site&rsquo;s root or the specific page.</li>
+<li><strong>File Existence:</strong> Confirm that the referenced files actually exist in the specified directories.</li>
+<li><strong>Debugging:</strong> Add debug statements or logs in your templates to trace where the nil pointer is occurring. This can help identify the exact reference causing the issue.</li>
+<li><strong>Example Fix:</strong>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">![<span class="nt">Alt text</span>](<span class="na">/images/example.jpg</span>)
+</span></span></code></pre></div>Ensure <code>/images/example.jpg</code> exists in the <code>static</code> directory of your Hugo project.</li>
+</ol>
+</li>
+</ul>
+<h4 id="error-no-such-file-or-directory--dir_chdir">Error: No such file or directory @ dir_chdir</h4>
+<ul>
+<li><strong>Cause:</strong> This error indicates that the specified directory does not exist or the path is incorrect in your configuration or script. It often happens when the deployment or build scripts are looking for a directory that hasn&rsquo;t been created or is misnamed.</li>
+<li><strong>Solution:</strong>
+<ol>
+<li><strong>Verify Paths:</strong> Double-check all directory paths specified in your configuration files (e.g., <code>config.toml</code>, <code>config.yaml</code>) and deployment scripts.</li>
+<li><strong>Create Missing Directories:</strong> Ensure that all required directories are created before running the build or deployment process. For example, if a directory is dynamically created during the build process, make sure the script includes steps to create it.</li>
+<li><strong>Correct Directory Names:</strong> Ensure there are no typos or case sensitivity issues in the directory names.</li>
+<li><strong>Example Fix:</strong>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">destination</span><span class="p">:</span><span class="w"> </span><span class="l">/github/workspace/docs/_site</span><span class="w">
+</span></span></span></code></pre></div>Ensure <code>/github/workspace/docs</code> exists and is correctly named.</li>
+</ol>
+</li>
+</ul>
+<h4 id="github-pages-build-failure">GitHub Pages build failure</h4>
+<ul>
+<li>
+<p><strong>Cause:</strong> Build failures on GitHub Pages can be due to several issues, including misconfigurations in the GitHub Actions workflow file, incorrect repository settings, or issues with the Hugo site configuration.</p>
+</li>
+<li>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>
+<p><strong>Workflow Configuration:</strong></p>
+<ul>
+<li>
+<p>Ensure that your GitHub Actions workflow file (<code>.github/workflows/gh-pages.yml</code>) is correctly set up. Check for syntax errors and ensure all necessary steps are included.</p>
+</li>
+<li>
+<p>Example snippet:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo site to Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">main</span><span class="w"> </span><span class="c"># Set to the branch you want to deploy from</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout repository</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0.125.5&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build the site</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo --minify</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy to GitHub Pages</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">github_token</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.GITHUB_TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">publish_dir</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>GitHub Pages Settings:</strong></p>
+<ul>
+<li>Ensure GitHub Pages is enabled in your repository settings. Navigate to the repository&rsquo;s settings, find the &ldquo;Pages&rdquo; section, and make sure it is set to build from the <code>gh-pages</code> branch or any other branch you specified.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check Repository Configuration:</strong></p>
+<ul>
+<li>Verify that the branch specified in the workflow (<code>main</code> in the example) is correct and matches the branch from which you are pushing changes.</li>
+<li>Ensure the <code>publish_dir</code> specified in the workflow matches the output directory of your Hugo build.</li>
+</ul>
+</li>
+<li>
+<p><strong>Debug Logs:</strong></p>
+<ul>
+<li>Enable debug logs in your GitHub Actions workflow to get more detailed error messages. This can help identify specific issues during the build or deployment process.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="frequently-asked-questions-faqs">Frequently Asked Questions (FAQs)</h2>
+<h3 id="q-how-do-i-change-the-sites-theme">Q: How do I change the site’s theme?</h3>
+<p><strong>A:</strong> To change the site’s theme, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Update the Configuration File:</strong></p>
+<ul>
+<li>Open the <code>config.yaml</code> (or <code>config.toml</code>) file in your project.</li>
+<li>Update the <code>theme</code> field to the name of the new theme. For example:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">theme</span><span class="p">:</span><span class="w"> </span><span class="l">new-theme-name</span><span class="w">
+</span></span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Include Theme Files:</strong></p>
+<ul>
+<li>Ensure that the new theme’s files are included in the project. You can download the theme from the <a href="https://themes.gohugo.io/" target="_blank" rel="noopener">Hugo themes repository</a> and place it in the <code>themes/</code> directory of your project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check Theme Documentation:</strong></p>
+<ul>
+<li>Refer to the new theme’s documentation for any additional setup steps or configuration options.</li>
+</ul>
+</li>
+</ol>
+<h3 id="q-how-can-i-add-images-to-my-blog-posts">Q: How can I add images to my blog posts?</h3>
+<p><strong>A:</strong> To add images to your blog posts, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Place Images in Static Directory:</strong></p>
+<ul>
+<li>Save your images in the <code>static/images/</code> directory of your project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Reference Images in Markdown:</strong></p>
+<ul>
+<li>In your Markdown files, reference the images using relative paths. For example:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">![<span class="nt">Alt text</span>](<span class="na">images/your-image.jpg</span>)
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ol>
+<h3 id="q-how-do-i-customize-the-sites-navigation-menu">Q: How do I customize the site&rsquo;s navigation menu?</h3>
+<p><strong>A:</strong> To customize the navigation menu, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Edit the Configuration File:</strong></p>
+<ul>
+<li>Open the <code>config.yaml</code> (or <code>config.toml</code>) file.</li>
+<li>Locate the <code>menu</code> section and add or modify menu items. For example:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">main</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">about</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">About</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">/about/</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">identifier</span><span class="p">:</span><span class="w"> </span><span class="l">blog</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Blog</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">/blog/</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">2</span><span class="w">
+</span></span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Save and Preview:</strong></p>
+<ul>
+<li>Save your changes and preview the site to ensure the navigation menu is updated as expected.</li>
+</ul>
+</li>
+</ol>
+<p>We hope this documentation makes it easy for you to contribute to the E4DRR project and helps ensure the successful deployment and maintenance of the site. If you have any questions or need further assistance, please refer to the <a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">Hugo Documentation</a> or reach out to our support team.</p>
+
+      </div>
+
+      
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2024-05-22T10:45:51.000Z">
+    <span>Last updated on</span>
+    May 22, 2024</time>
+      
+      
+  
+
+
+      
+
+
+
+    </main>
+  </article>
+</div>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+<p class="text-center">
+  
+  <a href="/E4DRR2.GITHUB.IO/privacy/">Privacy</a>
+  
+  
+   &middot; 
+  <a href="/E4DRR2.GITHUB.IO/terms/">Terms of Service</a>
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -129,9 +129,9 @@ sections:
     content:
       title: Predict and Protect
       text: Harness the power of impact-based forecasting to ensure timely and accurate disaster response, safeguarding vulnerable populations.
-      button:
-        text: Learn more
-        url: /blog
+      #button:
+      #text: Learn more
+      # url: /#blog
     design:
       card:
         # Card background color (CSS class)
