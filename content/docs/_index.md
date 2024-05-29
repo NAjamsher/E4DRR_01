@@ -6,7 +6,7 @@ draft: false
 
 ## Introduction
 
-HI,Welcome to the Enhancing Disaster Resilience in Eastern Africa (E4DRR) project website! This platform is dedicated to improving disaster management and resilience in Eastern Africa through advanced climate storylines and impact-based forecasting. Our goal is to empower communities with the knowledge and tools they need to better understand and prepare for potential hazards, ultimately benefiting over 200 million people by 2026.
+Welcome to the Enhancing Disaster Resilience in Eastern Africa (E4DRR) project website! This platform is dedicated to improving disaster management and resilience in Eastern Africa through advanced climate storylines and impact-based forecasting. Our goal is to empower communities with the knowledge and tools they need to better understand and prepare for potential hazards, ultimately benefiting over 200 million people by 2026.
 
 The E4DRR project leverages innovative technology and data-driven approaches to provide timely and accurate information for disaster response efforts. By implementing impact-based forecasting methodologies and offering capacity development programs, we aim to enhance the skills and knowledge of stakeholders involved in disaster management, enabling more efficient and coordinated response strategies.
 
